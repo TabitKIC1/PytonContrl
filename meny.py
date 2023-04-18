@@ -6,6 +6,7 @@ def start():
     input_user=""
     while input_user != "7":
         ui.menu()
+        input_user = input().strip()
         if input_user =="1":
             f.show('all')
         if input_user =="2":
