@@ -23,5 +23,5 @@ def start():
             f.show("id")
             f.id_edit_del_show("show")
         if input_user =="7":
-            ui.end()
+            f.end()
             break
